@@ -1,0 +1,128 @@
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    color: #FFA000;
+    
+}
+
+nav{
+    border: 10px dashed #FFA000;
+    border-top: 0px;
+    text-align: center;    
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+nav li{
+    font-size: 150%;
+}
+
+section{
+    padding: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    
+}
+
+
+
+
+nav ul li {
+    display: inline;
+}
+
+
+
+header{    
+    background-color: black;
+    padding: 1%;
+    border: 10px dashed #FFA000;
+    
+}
+
+header h1{
+    margin: 0px;
+}
+
+
+
+@font-face {
+    font-family: Pacmania;
+    src: url("../Resources/blackfoot/blackfoot.ttf") format("opentype");
+}
+
+#headerDiv{
+    color: #FFA000;
+    font-family: Pacmania;
+    overflow: auto;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+#headerDiv h1 {
+    
+    font-size: 7.1vw;
+    position: relative;
+    text-align: center;
+    
+
+}
+
+.card{
+    min-height: 300px;
+    min-width: 300px;
+}
+
+#boldText{
+    font-weight: bold;
+    
+}
+
+#ghost{
+    float: left;
+}
+
+
+
+#recapSection{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 50px 50px;
+}
+
+#recapSection > div{
+    border: 5px dashed #FFA000;
+    padding: 5%;    
+}
+
+#recapSection div h4{
+    font-weight: bold;
+    font-size: 200%;
+}
+
+.cardImage{
+    max-height: 250px;
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    padding: 10%;
+}
+
+article{
+    margin: 10px;
+}
+
+
+.BigInvitation{
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
