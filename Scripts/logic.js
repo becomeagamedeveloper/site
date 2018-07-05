@@ -14,6 +14,10 @@ $("#day4").click(function(){
     window.open("day4.html", "_self");
 });
 
+$("#day5").click(function(){
+    window.open("day5.html", "_self");
+});
+
 
 $("#day3").hover(function(){
     $("#day3").css("box-shadow", "2px 2px 2px 2px #FFA000, -2px -2px 2px 2px #FFA000"); 
@@ -44,5 +48,13 @@ $("#day4").hover(function(){
     document.documentElement.style.cursor = "pointer"  
 }, function(){
     $("#day4").css("box-shadow", "0px 0px #FFA000");
+    document.documentElement.style.cursor = "default"  
+});
+
+$("#day5").hover(function(){
+    $("#day5").css("box-shadow", "2px 2px 2px 2px #FFA000, -2px -2px 2px 2px #FFA000");
+    document.documentElement.style.cursor = "pointer"  
+}, function(){
+    $("#day5").css("box-shadow", "0px 0px #FFA000");
     document.documentElement.style.cursor = "default"  
 });
